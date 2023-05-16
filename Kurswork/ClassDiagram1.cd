@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Kurswork.Block">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Block1" Type="Kurswork.Block" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.25" Y="3.562" />
+        <Point X="2.096" Y="3.562" />
+        <Point X="2.096" Y="0.346" />
+        <Point X="2.562" Y="0.346" />
+        <Point X="2.562" Y="0.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.073" Y="0.168" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIQEQAQAAAAgAAAABAAiAAAAoCAAAAQCAABgBQAAIAk=</HashCode>
+      <FileName>Block.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Block1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Kurswork.Form_save_name">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="ApplicationContext" Type="Kurswork.ApplicationContext">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.118" Y="0.893" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAACAAABAAAACAAAACAAAAAAAAAAAgAgAQAAA=</HashCode>
+      <FileName>Form_save_name.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ApplicationContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Kurswork.Form_open_flowchart">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="ApplicationContext" Type="Kurswork.ApplicationContext">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.507" Y="0.185" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAACAAABAAAACAAAACAAQAAAAAAAAAgAEAAAA=</HashCode>
+      <FileName>Form_open_flowchart.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ApplicationContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Kurswork.Show_details">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAgAACAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kurswork.Flowchart_main_form">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Block" Type="Kurswork.Block" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.312" Y="3.915" />
+        <Point X="1.312" Y="4.188" />
+        <Point X="2.25" Y="4.188" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.235" Y="0.027" Height="0.182" Width="0.62" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Form_save_name" Type="Kurswork.Form_save_name" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="0.938" Y="3.915" />
+        <Point X="0.938" Y="6.267" />
+        <Point X="8.125" Y="6.267" />
+        <Point X="8.125" Y="2.569" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.118" Y="3.377" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Show_details" Type="Kurswork.Show_details" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.062" Y="3.915" />
+        <Point X="1.062" Y="6.179" />
+        <Point X="6.375" Y="6.179" />
+        <Point X="6.375" Y="4.184" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.052" Y="1.727" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Form_open_flowchart" Type="Kurswork.Form_open_flowchart" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.188" Y="3.915" />
+        <Point X="1.188" Y="6.058" />
+        <Point X="4.5" Y="6.058" />
+        <Point X="4.5" Y="4.569" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.135" Y="1.21" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQUEBgBQACABACAAIAWAQAICAAAAAQACIEAAAQABAAg=</HashCode>
+      <FileName>Flowchart_main_form.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Block" />
+      <Property Name="Form_save_name" />
+      <Property Name="Show_details" />
+      <Property Name="Form_open_flowchart" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Kurswork.FlowChart">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kurswork.ApplicationContext">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="FlowChart1" Type="Kurswork.FlowChart" FixedFromPoint="true">
+      <Path>
+        <Point X="5.5" Y="1.688" />
+        <Point X="5.75" Y="1.688" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.015" Y="0.043" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAA=</HashCode>
+      <FileName>DTO.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FlowChart1" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
