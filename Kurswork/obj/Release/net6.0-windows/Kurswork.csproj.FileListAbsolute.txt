@@ -1,0 +1,17 @@
+D:\ТМП\Kurswork\Kurswork\bin\Release\net6.0-windows\Kurswork.exe
+D:\ТМП\Kurswork\Kurswork\bin\Release\net6.0-windows\Kurswork.deps.json
+D:\ТМП\Kurswork\Kurswork\bin\Release\net6.0-windows\Kurswork.runtimeconfig.json
+D:\ТМП\Kurswork\Kurswork\bin\Release\net6.0-windows\Kurswork.dll
+D:\ТМП\Kurswork\Kurswork\bin\Release\net6.0-windows\Kurswork.pdb
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\Kurswork.csproj.AssemblyReference.cache
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\Kurswork.Flowchart_main_form.resources
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\Kurswork.csproj.GenerateResource.cache
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\Kurswork.GeneratedMSBuildEditorConfig.editorconfig
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\Kurswork.AssemblyInfoInputs.cache
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\Kurswork.AssemblyInfo.cs
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\Kurswork.csproj.CoreCompileInputs.cache
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\Kurswork.dll
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\refint\Kurswork.dll
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\Kurswork.pdb
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\Kurswork.genruntimeconfig.cache
+D:\ТМП\Kurswork\Kurswork\obj\Release\net6.0-windows\ref\Kurswork.dll
